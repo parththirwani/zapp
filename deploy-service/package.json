@@ -1,0 +1,21 @@
+{
+  "name": "deploy-service",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "redis": "^5.8.2"
+  },
+    "scripts": {
+    "build": "bunx tsc -b",
+    "start": "bun run dist/index.js",
+    "dev": "bun x tsc -b && bun run dist/index.js"
+  }
+}
