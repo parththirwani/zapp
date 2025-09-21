@@ -1,7 +1,8 @@
 import { createClient } from "redis";
 import { downloadS3Folder } from "./aws";
 import { buildProject } from "./build";
-import { copyFinalDist } from "./s3-utils"; // Assuming you move the S3 functions to a separate file
+import { copyFinalDist } from "./copy-files";
+
 
 const subscriber = createClient();
 subscriber.on("error", (err) => console.error("Redis Client Error", err));
