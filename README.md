@@ -1,4 +1,4 @@
-![image.png](attachment:abc77b02-fb39-44bb-9418-c1eff770bbc0:image.png)
+<img width="1013" height="273" alt="image" src="https://github.com/user-attachments/assets/1645a232-36b7-4f80-a3e1-094e36508b31" />
 
 **Zapp** is a **one-click React deployment platform** that allows developers to deploy React applications in under 30 seconds. Users simply provide a **GitHub repository URL** and optionally a **custom domain**, and the platform handles the entire deployment process automatically. It leverages a **microservices architecture**, cloud storage (AWS S3), and job queuing (Redis) to ensure **fast, scalable, and seamless deployments**.
 
